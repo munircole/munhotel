@@ -23,6 +23,10 @@ import { SigninComponent } from './auth/signin/signin.component';
 import { SignupComponent } from './auth/signup/signup.component';
 import {MaterialModule} from './material.module';
 import {AppRoutingModule} from './app-routing.module';
+import { HomeComponent } from './home/home.component';
+import { HeaderComponent } from './navigation/header/header.component';
+import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
+import { NavtabsComponent } from './navigation/navtabs/navtabs.component';
 
 
 @NgModule({
@@ -45,7 +49,11 @@ import {AppRoutingModule} from './app-routing.module';
     OffersComponent,
     AuthComponent,
     SigninComponent,
-    SignupComponent
+    SignupComponent,
+    HomeComponent,
+    HeaderComponent,
+    SidenavListComponent,
+    NavtabsComponent
   ],
   imports: [
     BrowserModule,
